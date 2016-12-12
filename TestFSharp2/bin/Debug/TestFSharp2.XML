@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly><name>TestFSharp2</name></assembly>
+<members>
+<member name="T:SQLEntityConnection1.SqlConnection">
+<summary>提供型別以存取資料庫，使用 LINQ-to-Entities 對應</summary><param name='ConnectionString'>資料庫連接的連接字串</param><param name='ConnectionStringName'>組態檔中資料庫連接的連接字串名稱。</param><param name='LocalSchemaFile'>資料庫結構描述的本機檔案</param><param name='Provider'>要用於 ssdl 產生的 ADO.NET 資料提供者名稱 (預設值: System.Data.SqlClient)</param><param name='EntityContainer'>用於概念模型中的 EntityContainer 的名稱</param><param name='ConfigFile'>連接字串使用的組態檔名稱 (預設值: 使用 app.config 或 web.config)</param><param name='DataDirectory'>資料目錄的名稱，用來取代連接字串中的 |DataDirectory| (預設值: 專案或程式碼目錄)</param><param name='ResolutionFolder'>於編譯期間用來解析相對檔案路徑的資料夾 (預設值: 內含專案或指令碼的資料夾)</param><param name='ForceUpdate'>要求設計期間與資料庫必須有直接連接，並強制重新整理本機結構描述檔案 (預設值: true)</param><param name='Pluralize'>使用英語規則自動將類別和成員名稱複數化或單數化 (預設值: false)</param><param name='SuppressForeignKeyProperties'>由實體類型定義中排除外部索引鍵屬性 (預設值: false)</param>
+</member>
+</members>
+</doc>

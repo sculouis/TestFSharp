@@ -1,0 +1,14 @@
+D:\test\TestFSharp2\TestFSharp2\bin\Debug\TestFSharp2.exe.config
+D:\test\TestFSharp2\TestFSharp2\bin\Debug\TestFSharp2.XML
+D:\test\TestFSharp2\TestFSharp2\bin\Debug\TestFSharp2.exe
+D:\test\TestFSharp2\TestFSharp2\bin\Debug\TestFSharp2.pdb
+D:\test\TestFSharp2\TestFSharp2\bin\Debug\FSharp.Core.dll
+D:\test\TestFSharp2\TestFSharp2\bin\Debug\FSharp.Data.dll
+D:\test\TestFSharp2\TestFSharp2\bin\Debug\FSharp.Data.TypeProviders.dll
+D:\test\TestFSharp2\TestFSharp2\bin\Debug\FSharp.Data.pdb
+D:\test\TestFSharp2\TestFSharp2\bin\Debug\FSharp.Data.xml
+D:\test\TestFSharp2\TestFSharp2\bin\Debug\FSharp.Core.xml
+D:\test\TestFSharp2\TestFSharp2\bin\Debug\zh-Hant\FSharp.Data.TypeProviders.resources.dll
+D:\test\TestFSharp2\TestFSharp2\bin\Debug\zh-Hant\FSharp.Core.resources.dll
+D:\test\TestFSharp2\TestFSharp2\obj\Debug\TestFSharp2.exe
+D:\test\TestFSharp2\TestFSharp2\obj\Debug\TestFSharp2.pdb
