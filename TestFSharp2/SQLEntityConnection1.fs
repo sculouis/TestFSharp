@@ -19,8 +19,10 @@ open Microsoft.FSharp.Data.TypeProviders
 open System;
 
 
+
 // You can use Server Explorer to build your ConnectionString.
 type internal SqlConnection = Microsoft.FSharp.Data.TypeProviders.SqlEntityConnection<ConnectionString = @"Data Source=localhost;Initial Catalog=WECHATDB_UAT;User ID=sa;Password=sapass[];MultipleActiveResultSets=true",Pluralize = true>
+
 let internal db = SqlConnection.GetDataContext()
 
 let internal table1 schema batchdate = 

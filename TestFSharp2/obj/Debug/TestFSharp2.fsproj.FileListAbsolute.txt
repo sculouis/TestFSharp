@@ -12,3 +12,7 @@ D:\test\TestFSharp2\TestFSharp2\bin\Debug\zh-Hant\FSharp.Data.TypeProviders.reso
 D:\test\TestFSharp2\TestFSharp2\bin\Debug\zh-Hant\FSharp.Core.resources.dll
 D:\test\TestFSharp2\TestFSharp2\obj\Debug\TestFSharp2.exe
 D:\test\TestFSharp2\TestFSharp2\obj\Debug\TestFSharp2.pdb
+D:\test\TestFSharp2\TestFSharp2\bin\Debug\FSharp.Data.SqlClient.dll
+D:\test\TestFSharp2\TestFSharp2\bin\Debug\Microsoft.SqlServer.TransactSql.ScriptDom.dll
+D:\test\TestFSharp2\TestFSharp2\bin\Debug\FSharp.Data.SqlClient.pdb
+D:\test\TestFSharp2\TestFSharp2\bin\Debug\FSharp.Data.SqlClient.xml

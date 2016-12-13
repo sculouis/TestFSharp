@@ -7,6 +7,10 @@ open System.Xml.Linq
 open SQLEntityConnection1
 open FSharp.Data
 
+[<Literal>]
+let connstring = @"Data Source=localhost;Initial Catalog=WECHATDB_UAT;User ID=sa;Password=sapass[];MultipleActiveResultSets=true"
+type wechatdb = SqlProgrammabilityProvider<connstring>
+
 [<EntryPoint>]
 let main argv = 
 
@@ -40,8 +44,25 @@ let main argv =
 //             
 //        argv |> Seq.iter(fun input -> inputargParse input)
 
-        let result = db.DataContext.ExecuteStoreCommand(String.Format("exec spGetSerialCode {0},{1},{2},{3}","XmlFile","1","2",3))
-        printfn "%A" result
+//        let result = db.DataContext.ExecuteStoreQuery(String.Format("exec spGetSerialCode {0},{1},{2},{3}","XmlFile","1","2",3))
+       
+        
+//        result |> Seq.iter(fun r -> printf "%A" r) 
+
+         
+
+        //呼叫Store Procedure
+        use cmd = new wechatdb.dbo.spGetSerialCode(connstring)
+        for x in cmd.Execute("XmlFile","1","2",3) do
+            match x with
+            |Some result -> printfn "%s" (result)
+            | _ -> () 
+        
+       //呼叫sql command
+        use cmd = new SqlCommandProvider<"select * from PayerReconciliation where SchemeId = @schemaid and BatchDate = @batchdate",connstring>(connstring) 
+        let result = cmd.Execute(schemaid = "wechat1",batchdate = "20161025") 
+        for x in result do
+            printfn "%s" (x.TxNo)   
 
         Console.ReadKey()
 
